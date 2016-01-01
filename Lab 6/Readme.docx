@@ -1,0 +1,17 @@
+﻿Introduction To Database Management Systems (Lab 6)
+
+Problem: 
+Problem Part 1. 
+Write mySQL code to:
+(a). Introduce a new column to your table snufaculty called ”joinYear” and set appropriate
+values for all records. Now the columns facultyQualification and joiYear are dependent
+on facultyName and have multiple redundant entries in snufaculty. create a new table
+furtherInfoFaculty that now contains facultyName, facultyQualification and JoinYear
+to reduce total size of the database.
+(b). Can you reduce dependencies in other tables and create new tables furtherInfoStudents
+and furtherInfoCourses?
+(c). Create a VIEW that displays the cartesian join of all three tables (all info).
+(d). Create a STORED PROCEDURE that takes as input facultyName as fname (type var-
+char) ,and Creates a VIEW by the name fnameTempView that displays facultyName,
+totalCourses (number of courses he has taken till date) and totalStudents (number of
+total students under that faculty, ever).
